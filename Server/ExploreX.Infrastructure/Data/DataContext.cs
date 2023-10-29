@@ -1,8 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using ExploreX.Domain.Entities;
 
-using ExploreX.Api.Models;
-
-namespace ExploreX.Api.Data
+namespace ExploreX.Infrastructure.Data
 {
     public class DataContext : DbContext
     {

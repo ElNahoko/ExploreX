@@ -1,6 +1,8 @@
-using ExploreX.Api.Models;
+using ExploreX.Domain.Entities;
 
-public class Trip
+namespace ExploreX.Domain.Entities
+{
+    public class Trip
     {
         public Guid Id { get; set; }
         public string Title { get; set; }
@@ -13,3 +15,4 @@ public class Trip
         public Destination Destination { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.UtcNow;
     }
+}

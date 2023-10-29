@@ -1,7 +1,7 @@
-using ExploreX.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
+namespace ExploreX.Infrastructure.Data;
 public class DesignTimeDataContextFactory : IDesignTimeDbContextFactory<DataContext>
 {
     public DataContext CreateDbContext(string[] args)

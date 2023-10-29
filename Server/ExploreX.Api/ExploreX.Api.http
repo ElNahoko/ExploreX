@@ -1,6 +1,18 @@
-@ExploreX.Api_HostAddress = http://localhost:5178
+@host = http://localhost:5000/api
 
-GET {{ExploreX.Api_HostAddress}}/weatherforecast/
-Accept: application/json
+### Create a New Destination
+POST {{host}}/destinations/
+Content-Type: application/json
+
+{
+  "name": "Sample Destination",
+  "description": "This is a sample description for the destination.",
+  "imageURL": "http://example.com/sample.jpg",
+  "videoURL": "http://example.com/sample.mp4",
+  "country": "Sample Country",
+  "region": "Sample Region",
+  "funFacts": "Some fun facts about this destination.",
+  "averageRating": 4.5
+}
 
 ###

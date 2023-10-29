@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using ExploreX.Domain.Entities;
 
-namespace ExploreX.Api.Models
+namespace ExploreX.Domain.Entities
 {
     public class User
     {
